@@ -10,5 +10,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: "Address Index Admin"
-  
+  owner: "address-index-admin"
