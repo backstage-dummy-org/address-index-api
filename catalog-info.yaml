@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  title: "Address Index Api"
+  title: "Address Index API"
   name: "address-index-api"
   description: "Address Index is an application which resolves addresses"
   annotations:
