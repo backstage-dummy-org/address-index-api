@@ -11,3 +11,4 @@ spec:
   type: service
   lifecycle: production
   owner: "address-index-admin"
+  providesApis: "address-index-api"
