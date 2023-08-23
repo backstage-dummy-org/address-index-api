@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   title: "Address Index Api"
   name: "address-index-api"
@@ -8,8 +8,8 @@ metadata:
     github.com/project-slug: backstage-dummy-org/address-index-api
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: service
+  type: openapi
   lifecycle: production
   owner: "address-index-admin"
-  providesApis: 
-    - "address-index-api"
+  definition: 
+    $file: "./api-definitions/api-openapi.json"
