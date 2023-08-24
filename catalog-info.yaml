@@ -7,7 +7,10 @@ metadata:
   annotations:
     github.com/project-slug: backstage-dummy-org/address-index-api
     backstage.io/techdocs-ref: dir:.
-  links: []
+  links:
+    - url: hhttps://www.ons.gov.uk/methodology/methodologicalpublications/generalmethodology/onsworkingpaperseries/onsworkingpaperseriesno17usingdatasciencefortheaddressmatchingservice
+      title: Case Study: Using Data Science for the Address Matching Service
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
